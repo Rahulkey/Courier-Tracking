@@ -1,0 +1,111 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+html {
+min-height:100%;
+overflow:hidden;
+
+
+}
+
+
+body {
+height:calc(100vh -8em);
+padding:4em;
+color:rgba(255,255,255,0.75);
+font-family:'Anonymous Pro',monospace;
+background-image: linear-gradient(300deg,#e91e63,#f44336,#9c27b0,#66bb6a,#cddc39,#e64a19);
+background-size:400%;
+animation:bganimation 15s infinite;
+
+
+}
+
+.line {
+position:relative;
+top:50%;
+width:16em;
+margin:0 auto;
+border-right:2px solid rgba(255,255,255,0.75);
+font-size:180%;
+text-align:center;
+white-space:nowrap;
+overflow:hidden;
+transform:translateY(-50%);
+
+}
+
+
+.anim-typewriter {
+
+animation:typewriter 4s steps(40) 1s 1 normal both ,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+
+@keyframes typewriter {
+    from {
+    width:0;
+    }
+    to {
+    width:16em;
+    }
+
+}
+
+
+@keyframes bganimation {
+    0% {
+        background-position:0% 50%;
+    }
+
+     50% {
+           background-position:100% 50%;
+    }
+
+100% {
+      background-position:0% 50%;
+    }
+
+
+
+} 
+
+@keyframes blinkTextCursor {
+    from {
+    border-right-color:rgba(255,255,255,0.75);
+    
+    }
+    to {
+    border-right-color:transparent;
+    
+    }
+
+
+}
+
+
+a {
+position:relative;
+display:inline-block;
+padding:15px 30px;
+color:#2196f3;
+text-transform:uppercase;
+letter-spacing:4px;
+text-decoration:none;
+font-size:24px;
+overflow:hidden;
+transition:0.2s;
+
+
+}
+
+    a:hover {
+    color:#255784;
+    background:#2196f3;
+   box-shadow:0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay:1s;
+    
+    }
+
+

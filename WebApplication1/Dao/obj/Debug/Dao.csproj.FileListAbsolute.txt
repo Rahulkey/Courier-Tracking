@@ -1,0 +1,8 @@
+C:\Users\806758\documents\visual studio 2012\Projects\WebApplication1\Dao\bin\Debug\Dao.exe.config
+C:\Users\806758\documents\visual studio 2012\Projects\WebApplication1\Dao\bin\Debug\Dao.pdb
+C:\Users\806758\documents\visual studio 2012\Projects\WebApplication1\Dao\bin\Debug\Model.pdb
+C:\Users\806758\documents\visual studio 2012\Projects\WebApplication1\Dao\obj\Debug\Dao.exe
+C:\Users\806758\documents\visual studio 2012\Projects\WebApplication1\Dao\obj\Debug\Dao.pdb
+C:\Users\806758\documents\visual studio 2012\Projects\WebApplication1\Dao\bin\Debug\Model.dll
+C:\Users\806758\documents\visual studio 2012\Projects\WebApplication1\Dao\bin\Debug\Dao.exe
+C:\Users\806758\documents\visual studio 2012\Projects\WebApplication1\Dao\obj\Debug\Dao.csprojResolveAssemblyReference.cache
